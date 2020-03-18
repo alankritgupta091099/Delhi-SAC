@@ -255,8 +255,8 @@ ul, ol {
 .top-nav .main-menu ul li a:hover {
 	color: #2cbdb8;
 }
-.top-nav .top-right {
-	text-align: right;
+.top-nav {
+	text-align: center;
 }
 .top-nav .top-right .language-option {
 	display: inline-block;
@@ -326,7 +326,12 @@ ul, ol {
 .nav-logo .logo a {
 	display: inline-block;
 }
+.nav-logo .logo a img{
+	width: 20rem;
+	height:4rem;
+}
 .nav-logo .nav-logo-right {
+	margin-top:15px;
 	text-align: right;
 }
 .nav-logo .nav-logo-right ul li {
@@ -444,7 +449,8 @@ ul, ol {
 	transform: translateX(-251.3px);
 }
 .thumbs .item img {
-	width: auto;
+	height: 95px;
+	width: 200px;
 	cursor: pointer;
 }
 /*---------------------
