@@ -372,6 +372,12 @@ ul, ol {
 	color: #707079;
 	font-size: 16px;
 }
+/*modals*/
+@media screen and (max-width: 600px){
+	.modal {
+		max-width: 500px; 
+	}
+}
 /*---------------------
   Hero
 -----------------------*/
@@ -851,6 +857,9 @@ ul, ol {
 	padding-top: 95px;
 	overflow: hidden;
 }
+.top-properties-section .properties-title .section-title{
+	margin-top:-100px;
+}
 .top-properties-section .section-title {
 	text-align: left;
 	float: left;
@@ -896,7 +905,7 @@ ul, ol {
 	border-color: #707079;
 }
 .top-properties-carousel .single-top-properties .stp-pic img {
-	height: 380px;
+	height: 400px;
 }
 .top-properties-carousel .single-top-properties .stp-text {
 	padding-left: 40px;
@@ -1635,6 +1644,64 @@ ul, ol {
 	background: #2cbdb8;
 	border-color: #2cbdb8;
 	color: #ffffff;
+}
+/*upcoming Events*/
+
+.card-box {
+	background: #FAFAFA;
+	min-height: 300px;
+	position: relative;
+	padding: 30px 30px 20px;
+	margin-bottom: 20px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	position: relative;
+	cursor: pointer;
+}
+
+.card-box:hover {
+	background: linear-gradient(to right, #1fa2ff17 0%, #12d8fa2b 51%, #1fa2ff36 100%);
+}
+
+.card-box:after {
+	display: block;
+	background: #2cbdb8;
+	border-top: 2px solid #2cbdb8;
+	content: '';
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.card-title h2 {
+	margin: 0;
+	padding-top: 5%;
+	color: #2cbdb8;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+.card-title p {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.card-link a {
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: #2cbdb8;
+	font-size: 15px;
 }
 /*-------------------------------
   Property Details Hero Section
